@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 function AppTestComponent(props) {
     return (
       <div className="App">
@@ -13,4 +11,4 @@ function AppTestComponent(props) {
     );
   }
 
-  export default AppTestComponent;
+export default AppTestComponent;

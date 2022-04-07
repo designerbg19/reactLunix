@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React ,{ Component }from 'react'
 
@@ -9,12 +8,13 @@ import Hello from "./components/hello"
   render() {
     return(
     <div className="App">
-      Class Difinition 
-      {/* <AppTestComponent name="bahjet" lastName="Glida" /> */}
-      <Hello value="passed props 2" />
-      <AppTestComponent name="bahjet" lastName="Glida">
-        DESCREPTIONS
-      </AppTestComponent>
+      <h1>Class Definitions</h1>  
+        {/* component class diff   */}
+        <Hello value="passed props 2" />
+        {/* component function diff  */}
+        <AppTestComponent name="bahjet" lastName="Glida">
+          <h2>DESCRIPTIONS</h2>
+        </AppTestComponent>
     </div>
     );
   }
